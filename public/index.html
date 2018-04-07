@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>favicon.ico">
-    <title>vue-sortable-list</title>
+    <title>Vue Sortable List</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      .draggable-source--is-dragging {
+        background-color: #f1f5f8;
+      }
+      .draggable-source--is-dragging > div {
+        opacity: 0;
+      }
+    </style>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but vue-sortable-list doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
+    <div class="min-h-screen text-black bg-grey-lighter p-8">
+      <noscript>
+        <strong>We're sorry but vue-sortable-list doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      </noscript>
+      <div id="app"></div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>

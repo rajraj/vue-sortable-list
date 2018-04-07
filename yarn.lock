@@ -628,6 +628,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@shopify/draggable@^1.0.0-beta.6":
+  version "1.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@shopify/draggable/-/draggable-1.0.0-beta.6.tgz#fece2ea9dea78b5ac074d075d70766edd580145d"
+
 "@vue/babel-preset-app@^3.0.0-beta.6":
   version "3.0.0-beta.6"
   resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-3.0.0-beta.6.tgz#bb51c59d8526f1521caaa3d6e08591fc653f0948"
